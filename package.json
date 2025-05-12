@@ -1,0 +1,33 @@
+{
+  "name": "oct24-t2w7-express-testing",
+  "version": "1.0.0",
+  "description": "Review of Express and intro to NodeJS and ExpressJS testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "node --watch src/index.js",
+    "start": "NODE_ENV=production node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriangcodes/oct24-t2w7-express-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adriangcodes/oct24-t2w7-express-testing/issues"
+  },
+  "homepage": "https://github.com/adriangcodes/oct24-t2w7-express-testing#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.14.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
